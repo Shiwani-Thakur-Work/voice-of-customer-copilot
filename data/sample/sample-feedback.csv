@@ -1,0 +1,52 @@
+feedback,source,segment,date,customer_name
+"The application dashboard takes more than 15 seconds to load our weekly reports.",support_ticket,Enterprise,2026-09-01,Acme Corp
+"Dashboard loading speed is terribly slow, sometimes taking 20 seconds.",email,Enterprise,2026-09-02,Global Logistics
+"Loading the main dashboard is extremely sluggish. We need this to be fast.",app_review,Mid-Market,2026-09-03,Fintech Plus
+"The dashboard takes way too long to load every morning.",community,Startup,2026-09-05,Alex Dev
+"Exporting customer data to CSV randomly fails with a 500 server error.",support_ticket,Enterprise,2026-09-02,Nexus Retail
+"CSV export button throws an error half the time we try to run monthly exports.",email,Mid-Market,2026-09-04,Starlight Media
+"Data export to CSV is completely broken on large datasets.",app_review,Enterprise,2026-09-06,MegaCorp PM
+"The pricing structure is very confusing. We got surprised by overage charges on our invoice.",support_ticket,Startup,2026-09-03,CloudCraft
+"Unexpected overage charges on our monthly bill. Pricing tiers are not transparent at all.",email,Startup,2026-09-04,Studio Bravo
+"Too expensive for small teams. The jump from Starter ($29) to Pro ($199) is way too steep.",community,Solo/Freelancer,2026-09-05,SoloMaker
+"Pricing is prohibitive for early stage startups. Please consider a team tier between basic and pro.",sales_call,Startup,2026-09-07,Seedling AI
+"Cannot find the team member invite button in the new settings redesign.",support_ticket,Mid-Market,2026-09-01,Apex Tech
+"The settings menu is completely cluttered. It took me 10 minutes to locate user permissions.",app_review,Startup,2026-09-04,VentureX
+"Navigation in the new update is very confusing. Where did the project switcher go?",community,Mid-Market,2026-09-05,ProductLead99
+"The user interface is confusing after the last update. Too many clicks to accomplish basic tasks.",email,Enterprise,2026-09-08,Enterprise PM
+"The mobile version of the analytics tab is completely broken on iPhone 15.",support_ticket,Startup,2026-09-02,Mobility Inc
+"Mobile view is basically unusable. Charts overflow outside the screen viewport.",app_review,Solo/Freelancer,2026-09-06,FreelanceUI
+"Can we please get a native mobile app or at least responsive web layouts on iPad?",sales_call,Mid-Market,2026-09-07,FieldOperations
+"Getting started was painful. The onboarding tour broke on step 3 and locked the screen.",support_ticket,Startup,2026-09-03,Newcomer Inc
+"Onboarding documentation is severely outdated. The screenshots show a previous version.",email,Solo/Freelancer,2026-09-04,DevSolo
+"Support team took 4 days to reply to our urgent blocker ticket.",support_ticket,Mid-Market,2026-09-05,HealthStack
+"Support response time has degraded significantly over the past two months.",email,Enterprise,2026-09-07,OmniHealth
+"The recent AI summarizer feature is fantastic! Saved our team hours of manual categorization.",app_review,Enterprise,2026-09-02,HappyCustomer
+"Really love the clean dark mode and keyboard shortcuts.",community,Startup,2026-09-06,PowerUser
+"We need SAML / SSO integration before our infosec team can approve company-wide rollout.",sales_call,Enterprise,2026-09-01,SecOps Director
+"Are there any plans for SOC2 compliance or Okta SSO? We cannot upgrade without SSO.",email,Enterprise,2026-09-05,BankSecure
+"Two-factor authentication via authenticator app should be mandatory for admin roles.",community,Enterprise,2026-09-08,CyberGuard
+"Would love a direct webhook or Zapier integration to send alerts to our Slack channels.",community,Startup,2026-09-03,HustleLab
+"Slack notification integration is desperately needed for our triage workflow.",support_ticket,Mid-Market,2026-09-06,TriageLead
+"Integration with Jira or Linear would make this tool 10x more useful for PMs.",sales_call,Enterprise,2026-09-07,SprintMaster
+"Filtering by date range resets every time I switch views. Very annoying bug.",support_ticket,Mid-Market,2026-09-02,DataAnalyst_1
+"Date filter keeps resetting when navigating between dashboard tabs.",email,Mid-Market,2026-09-04,AnalyticsPro
+"Search indexing seems broken. Searching for exact customer names yields zero results.",support_ticket,Enterprise,2026-09-05,ClientSuccess
+"Search is unresponsive or returns blank results when searching for alphanumeric IDs.",app_review,Startup,2026-09-08,FastTrack
+"The CSV export format changed without notice and broke our downstream data pipelines.",email,Enterprise,2026-09-09,DataEng Lead
+"Please add dark mode support to the mobile view.",community,Solo/Freelancer,2026-09-07,NightOwl
+"Role-based access control is too coarse. We need read-only access for guest stakeholders.",sales_call,Enterprise,2026-09-08,CorporatePM
+"Our contractors only need read-only access to specific dashboards, not full project admin rights.",support_ticket,Enterprise,2026-09-09,AuditTeam
+"The billing portal rejected our European VAT ID and charged tax incorrectly.",support_ticket,Startup,2026-09-04,EuroSaaS
+"Cannot update billing contact email address without contacting support.",email,Solo/Freelancer,2026-09-06,FounderDave
+"The app frequently freezes when opening a board with more than 500 items.",support_ticket,Enterprise,2026-09-03,ScaleCorp
+"Freezes and browser tab crashes whenever a large dataset is rendered.",community,Enterprise,2026-09-06,HeavyUser
+"Great progress on recent releases! The performance on small projects is buttery smooth.",app_review,Startup,2026-09-05,AgileFan
+"Automated email notifications cannot be customized. They look like spam to our clients.",support_ticket,Mid-Market,2026-09-07,ClientDirect
+"Email digest formatting looks broken in Microsoft Outlook desktop client.",email,Enterprise,2026-09-08,CorporateComms
+"Would be great to export dashboards directly to PDF for executive presentations.",sales_call,Mid-Market,2026-09-06,VP Product
+"No way to download slide-ready executive reports. We have to screenshot every widget.",community,Enterprise,2026-09-09,DirectorOps
+"Notification badges do not clear even after reading all unread messages.",support_ticket,Solo/Freelancer,2026-09-02,IndieMaker
+"Unread notification counter badge is persistently stuck at 3.",app_review,Startup,2026-09-07,BugHunter
+"API rate limits are too restrictive (60 req/min). We hit 429 errors during sync runs.",support_ticket,Enterprise,2026-09-05,IntegrationsTeam
+"Need higher rate limits on the REST API for scheduled data warehouse synchronization.",email,Enterprise,2026-09-08,ETL Architect

@@ -1,0 +1,119 @@
+# Voice of Customer Copilot
+
+## 1. Product context
+
+Product teams receive feedback from many sources: customer interviews, app reviews, support conversations, surveys, community discussions, and sales calls. The information is often fragmented, repetitive, and difficult to turn into a clear product decision.
+
+A team may know that customers are unhappy without knowing which problem is most common, which users are affected, what evidence supports the conclusion, or what should be prioritized next.
+
+Voice of Customer Copilot is a product discovery tool that helps teams move from raw customer feedback to evidence-backed product opportunities.
+
+## 2. Problem statement
+
+Product managers spend considerable time manually reviewing customer feedback, identifying recurring themes, distinguishing isolated complaints from persistent problems, and translating findings into roadmap decisions.
+
+The opportunity is to reduce this manual effort without losing the original customer context or allowing AI-generated assumptions to become product facts.
+
+## 3. Target users
+
+**Primary user:** Product managers at small and mid-sized software companies.
+
+**Secondary users:** Founders, product researchers, customer success teams, and support leads.
+
+Start with one clear persona: a PM who receives customer feedback from multiple sources but does not have a dedicated research or analytics team.
+
+## 4. Core hypothesis
+
+If product managers can quickly identify recurring feedback themes and inspect the original evidence behind every insight, they will spend less time organizing feedback and more time deciding what to investigate or improve.
+
+This is a hypothesis to validate, not an established result.
+
+## 5. Proposed MVP
+
+- Import feedback using CSV or a small sample dataset.
+- Normalize feedback and remove obvious duplicates.
+- Group similar feedback into themes.
+- Show the number of relevant feedback items and affected user segments where available.
+- Link every generated insight to its original feedback.
+- Allow users to correct themes, merge groups, and flag incorrect classifications.
+- Provide a simple prioritization view based on frequency, severity, and user impact.
+- Export selected insights into a product discovery summary.
+
+## 6. What makes this more than an AI summarizer?
+
+The product should help a PM make a better decision, not merely generate a paragraph.
+
+Each insight should include:
+- The theme or problem.
+- Supporting customer statements.
+- How often the theme appears in the supplied dataset.
+- Relevant segment or context, when available.
+- Confidence or uncertainty.
+- Missing evidence and recommended follow-up research.
+
+Frequency should not automatically determine priority. A rare but severe problem can matter more than a common minor complaint.
+
+## 7. PM decisions to demonstrate
+
+- Which feedback sources belong in the first release?
+- Should themes be generated automatically or require user confirmation?
+- How should contradictory feedback be handled?
+- What evidence is sufficient to call something a recurring problem?
+- How should severity and frequency affect prioritization?
+- Which AI errors are acceptable, and which could mislead a product decision?
+
+## 8. Success metrics
+
+**North-star candidate:** Time required to produce a reviewed, evidence-backed set of product insights from a feedback dataset.
+
+Supporting metrics:
+- Percentage of generated themes accepted or edited by users.
+- Accuracy of feedback-to-theme classification against a manually reviewed sample.
+- Percentage of insights with valid supporting evidence.
+- Time taken to review and organize a fixed dataset.
+- Number of users who return to review or update insights.
+
+Do not claim time savings or accuracy improvements until you measure them.
+
+## 9. Initial validation
+
+Before building the complete application:
+1. Collect a small, clearly sourced sample of feedback.
+2. Manually group the feedback into themes.
+3. Ask a few PMs or founders how they currently analyze feedback.
+4. Compare their existing workflow with a simple AI-assisted prototype.
+5. Record incorrect themes, missing context, and unsupported conclusions.
+
+## 10. Out of scope for the MVP
+
+- Continuous ingestion from every social platform.
+- Complex enterprise integrations.
+- Automatic roadmap creation.
+- Fully autonomous prioritization.
+- Sentiment scores presented as objective truth.
+
+## 11. Portfolio outcome
+
+The case study should show the problem discovery process, user evidence, prioritization framework, prototype, AI evaluation method, iteration history, and what the results changed about the product direction.
+
+
+
+- PM perspective: This is a strong project because you can demonstrate discovery and decision-making, not just AI integration. It also gives you a clear way to evaluate quality using a manually labeled dataset.
+
+- Your PM working checklist
+Use this checklist for each project before implementation begins.
+Project readiness
+0/10
+
+
+
+[ ] Define the target user and problem statement
+[ ] Conduct initial user research or problem validation
+[ ] Write the product hypothesis and assumptions
+[ ] Define MVP scope and explicit non-goals
+[ ] Select success metrics and how to measure them
+[ ] Create user flows and a low-fidelity prototype
+[ ] Define AI evaluation cases and failure handling
+[ ] Build and test the smallest useful version
+[ ] Review results and prioritize the next iteration
+[ ] Publish an honest PM case study
